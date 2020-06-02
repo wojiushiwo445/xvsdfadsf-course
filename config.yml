@@ -1,0 +1,16 @@
+title: xvSdfadsf
+description: 撒旦发射点v阿夫波特如果
+template:
+  repo: xvsdfadsf-template
+  name: xvsdfadsf
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
